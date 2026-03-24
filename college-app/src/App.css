@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background-color: #f5f3ff;
+}
+
+.hero {
+  height: 90vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.overlay {
+  background: rgba(0,0,0,0.5);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.btn {
+  background: linear-gradient(45deg, #ff7a18, #ff3d00);
+  border: none;
+  padding: 12px 20px;
+  color: white;
+  border-radius: 25px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.card {
+  background: white;
+  margin: 10px;
+  padding: 15px;
+  border-radius: 12px;
+}
